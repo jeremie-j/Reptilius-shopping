@@ -1,0 +1,175 @@
+{
+  "Products": [
+    {
+      "Name": "BOA IMPERATOR",
+      "Type": "Boa Constrictor",
+      "Description": "Découvrez cette superbe mutation de Boa imperator (Boa empereur), travaillée depuis des années chez nous afin d'avoir une coloration très spécifique au niveau du marquette. Animaux porteur du gène albinos !",
+      "Image": "https://www.reptiligne.fr/13770-large_default/boa-constrictor-imperator-boa-empereur-leopard-het-albinos.jpg",
+      "Price":"350",
+      "Gender": ["Mâle","Femelle"],
+      "Age":"Adulte",
+      "Category": "Serpents"
+    },{
+        "Name": "ORTRIOPHIS ELAPHE",
+        "Type": "Ortriophis Taeniura",
+        "Description": "Magnifique spécimen d'Ortriophis taeniura taeniura (Serpent-ratier) mâle né en captivité en 2020 disponible.",
+        "Image":"https://www.reptiligne.fr/13914-large_default/-ortriophis-elaphe-taeniura-taeniura-platinium-serpent-ratier.jpg",
+        "Price":"300",
+        "Gender": ["Mâle"],
+        "Age":"Juvénile",
+        "Category": "Serpents"
+    },{
+        "Name": "PYTHON REGIUS",
+        "Type": "Python Royal",
+        "Description": "Spécimen MÂLE née en captivité en 2020",
+        "Image":"https://www.reptiligne.fr/13919-large_default/python-regius-axanthic-tsk-line-het-piedbald-python-royal.jpg",
+        "Price":"400",
+        "Gender": ["Mâle"],
+        "Age":"Adulte",
+        "Category": "Serpents"
+    },{
+        "Name": "LICHANURA TRIVIRGATA",
+        "Type": "Boa Rosé",
+        "Description": "Spécimen localité San Ignacio, femelle née en captivité en 2019 disponible. ",
+        "Image":"https://www.reptiligne.fr/13900-large_default/lichanura-trivirgata-trivirgata-san-ignacio-boa-rose.jpg",
+        "Price":"290",
+        "Gender": ["Femelle"],
+        "Age":"Juvénile",
+        "Category": "Serpents"
+    },{
+        "Name": "Candoia Paulsoni",
+        "Type": "Boa du Pacifique",
+        "Description": "Un mâle né en captivité en 2019 disponible.",
+        "Image":"https://www.objectif-reptiles.ch/wp-content/uploads/2020/07/t%C3%A9l%C3%A9chargement-6.jpg",
+        "Price":"300",
+        "Gender": ["Mâle"],
+        "Age":"Juvénile",
+        "Category": "Serpents"
+    },{
+        "Name": "Thamnolis Sirtalis",
+        "Type": "Couleuvre",
+        "Description": "Découvrez nos Thamnophis sirtalis sirtalis (Serpent-Jarretière) né en captivité en 2020. Ce serpent est idéal pour débuter mais aussi pour la création de paludarium, le serpent-jarretière vivant près des berges, il s'adaptera parfaitement dans ce type de terrarium.",
+        "Image":"https://www.reptiligne.fr/13758-catalog_medium/thamnophis-sirtalis-sirtalis-serpent-jarretiere.jpg",
+        "Price":"90",
+        "Gender": ["Mâle","Femelle"],
+        "Age":"Juvénile",
+        "Category": "Serpents"
+    },{
+        "Name": "Gonysoma Boulengeri",
+        "Type": "Couleuvre",
+        "Description": "Gonyosoma boulengeri est communément appelé « Serpent ratier rhinocéros » à cause de ce petit appendice au bout du museau. Il ne s’agit pas réellement d’une corne, car celle-ci est souple et molle.",
+        "Image":"https://www.reptiligne.fr/13906-catalog_medium/gonyosoma-boulengeri-serpent-ratier-rhinoceros.jpg",
+        "Price":"250",
+        "Gender": ["Mâle","Femelle"],
+        "Age":"Juvénile",
+        "Category": "Serpents"
+    },{
+        "Name": "OREOCRYPTOPHIS",
+        "Type": "Couleuvres asiatiques",
+        "Description": "Spécimen mâle né en captivité en 2020 disponible.",
+        "Image":"https://www.reptiligne.fr/13911-catalog_medium/oreocryptophis-porphyraceus-laticinctus-serpent-rouge-des-montagnes.jpg",
+        "Price":"150",
+        "Gender": ["Mâle"],
+        "Age":"Juvénile",
+        "Category": "Serpents"
+    },{
+        "Name": "Anolis Barbatus",
+        "Type": "Iguane",
+        "Description": "Spécimens adultes nés en 2019 disponibles.",
+        "Image":"https://www.reptiligne.fr/13961-catalog_medium/anolis-chalmaeleolis-barbatus-faux-cameleon-de-cuba.jpg",
+        "Price":"470",
+        "Gender": ["Mâle","Femelle"],
+        "Age":"Juvénile",
+        "Category": "Lézards"
+    },{
+        "Name": "Iguana albinos",
+        "Type": "Iguane",
+        "Description": "Sélection Reptilius ! Découvrez cette sélection d'Iguane vert 'Albinos' Iguana iguana. Spécimens juvéniles nés en captivité en 2020 .",
+        "Image":"https://www.reptiligne.fr/13549-catalog_medium/iguana-iguana-iguane-vert-albinos.jpg",
+        "Price":"1500",
+        "Gender": ["Mâle","Femelle"],
+        "Age":"Juvénile",
+        "Category": "Lézards"
+    },{
+        "Name": "CYRTODACTYLUS LOUISIADENSIS",
+        "Type": "Gecko ",
+        "Description": "Pas de description :(",
+        "Image":"https://www.reptiligne.fr/13960-large_default/cyrtodactylus-louisanensis-gecko-a-queue-annelee.jpg",
+        "Price":"290",
+        "Gender": ["Mâle","Femelle"],
+        "Age":"Juvénile",
+        "Category": "Lézards"
+    },{
+        "Name": "VARANUS TRISTIS",
+        "Type": "Varan moucheté",
+        "Description": "Pas de description",
+        "Image":"https://www.reptiligne.fr/13744-large_default/varanus-tristis-orientalis-varan-mouchete-.jpg",
+        "Price":"390",
+        "Gender": ["Mâle","Femelle"],
+        "Age":"Juvénile",
+        "Category": "Lézards"
+    },{
+        "Name": "TRIBOLONOTUS GRACILIS",
+        "Type": "Scinque",
+        "Description": "Le Scinque crocodile (Tribolonotus gracilis) est un petit scincidé dépassant rarement les 20cm. Facile à éléver en captivité, ils se paieront parfaitement dans un terrarium planté avec de nombreuses cachettes.",
+        "Image":"https://www.reptiligne.fr/14060-large_default/tribolonotus-gracilis-scinque-crocodile.jpg",
+        "Price":"150",
+        "Gender": ["Mâle","Femelle"],
+        "Age":"Juvénile",
+        "Category": "Lézards"
+    },{
+        "Name": "NEPHRURUS AMYAE",
+        "Type": "Gecko",
+        "Description": "Découvrez ce magnifique gecko australien Nephrurus amyae ! Plus grand représentant du genre Nephrurus, environ 13 cm à taille adulte, ce petit gecko insectivore, s'élèvera facilement dans un terrarium adapté.",
+        "Image":"https://www.reptiligne.fr/13955-large_default/nephrurus-amyae-gecko-a-queue-en-bouton.jpg",
+        "Price":"1400",
+        "Gender": ["Mâle","Femelle"],
+        "Age":"Adulte",
+        "Category": "Lézards"
+    },{
+        "Name": "POGONA VITTICEPS",
+        "Type": "Dragon Barbu",
+        "Description": "Sélection Reptilius ! Magnifique Pogona vitticeps (Agame barbu) 'Extrem Red Super Translucent Leatherback' né en captivité en 2020 disponible. Taille : 12cm (museau-cloaque)",
+        "Image":"https://www.reptiligne.fr/13898-catalog_medium/pogona-vitticeps-agame-barbu-red-hypo-leatherback.jpg",
+        "Price":"340",
+        "Gender": ["Mâle","Femelle"],
+        "Age":"Juvénile",
+        "Category": "Lézards"
+    },{
+        "Name": "GASTROPHOLIS PRASINA",
+        "Type": "Lézard",
+        "Description": "Magnifique lézard originaire d'Afrique de l'Est. Spécimens nés en captivité en 2020 ! Animaux pas encore sexable. Possible sur demande.",
+        "Image":"https://www.reptiligne.fr/13649-catalog_medium/gastropholis-prasina-lezard-vert-arboricole-.jpg",
+        "Price":"390",
+        "Gender": ["Mâle","Femelle"],
+        "Age":"Juvénile",
+        "Category": "Lézards"
+    },{
+        "Name": "Agame",
+        "Type": "POGONA VITTICEPS",
+        "Description": "Jeunes Pogona vitticeps nés en captivité en 2021 disponibles. Taille : 4cm (museau-cloaque)",
+        "Image":"https://www.reptiligne.fr/13835-catalog_medium/pogona-vitticeps-agame-barbu.jpg",
+        "Price":"70",
+        "Gender": ["Mâle","Femelle"],
+        "Age":"Juvénile",
+        "Category": "Lézards"
+    },{
+        "Name": "EUBLEPHARIS MACULARIUS",
+        "Type": "Gecko",
+        "Description": "Mâle né en captivité le 10/07/2020 disponible.",
+        "Image":"https://www.reptiligne.fr/13923-catalog_medium/eublepharis-macularius-zorro-bandit-low-tremper-gecko-leopard.jpg",
+        "Price":"220",
+        "Gender": ["Mâle","Femelle"],
+        "Age":"Juvénile",
+        "Category": "Lézards"
+    },{
+        "Name": "HEMITHECONYX CAUDICINCTUS",
+        "Type": "Gecko",
+        "Description": "Une magnigfique femelle Hemitheconyx caudicinctus (Gecko africain à queue grasse) de phase 'Amel Stripe het Oreo Poss Zulu' née le 07/08/2020 disponible.",
+        "Image":"https://www.reptiligne.fr/13930-catalog_medium/hemiteconyx-caudicinctus-amel-stripe-het-oreo-poss-zulu-gecko-africain-a-queue-grasse.jpg",
+        "Price":"120",
+        "Gender": ["Mâle","Femelle"],
+        "Age":"Juvénile",
+        "Category": "Lézards"
+    }]
+}

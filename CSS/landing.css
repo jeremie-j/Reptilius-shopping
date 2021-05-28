@@ -1,0 +1,83 @@
+
+
+/* Images */
+section#landing{
+    height: 100vh;
+    overflow: hidden;
+}
+#landing>div{
+    position: relative;
+    top: 30%;
+}
+
+#landing>div>h1{
+    width: 70%;
+    border-bottom: 1px solid var(--smooth_black);
+}
+
+#landing>div>p{
+    font-size: 24px;
+    width: 70%;
+}
+
+#landing .scroll a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+#landing .scroll svg:nth-child(1){
+    position: relative;
+    animation: slidedown 5s linear infinite 1s;
+    opacity: 0; 
+}
+#landing .scroll svg:nth-child(2){
+    position: relative;
+    animation: slidedown 5s linear infinite;
+    opacity: 0; 
+}
+
+#landing .snake-corpse:nth-child(2){
+    position: absolute;
+    top: 0;
+}
+
+#landing .snake-corpse:nth-child(3){
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#landing .snake-corpse:nth-child(4){
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+@keyframes slidedown{
+    0%{
+        transform: translateY(0%);
+        opacity: 0;
+    }10%{
+        opacity: 1;
+        transform: translateY(20%);
+    }50%{
+        opacity: 1;
+        transform: translateY(20%);
+    }60%{
+        opacity: 0;
+        transform: translateY(100%);
+    }100%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+}
+
+/* Corps de la page */
+
+#begin{
+    height: auto;
+    margin-top: 150px;
+}
+#landing-shop{
+    height: auto;
+    padding-top: 150px;
+}

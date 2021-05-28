@@ -1,0 +1,26 @@
+.shop-header{
+    width: 100%;
+}
+.shop-header{
+    font-size: 18px;
+}
+.shop-header option,.shop-header select, input{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    height: 100%;
+    line-height: 100%;
+    border: inherit;
+    border-bottom: 1px solid var(--smooth_grey);
+    background-color: var(--smooth_white);
+}
+input{
+    height: 24px;
+    padding-left: 5px;
+}
+.shop-header option:focus,.shop-header select:focus, input:focus{
+    /* A NE PAS FAIRE EN PRODUCTION */
+    outline: inherit;
+    /* ---------------------------- */
+    border-bottom: 1px solid var(--smooth_black);
+}
