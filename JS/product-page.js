@@ -11,10 +11,10 @@ async function find(name) {
 
 function choose(name) {
     sessionStorage.setItem("product", name);
-    if ( window.location.pathname == "/index.html" || window.location.pathname == "/") {
+    if ( window.location.pathname.toLowerCase() == "/index.html" || window.location.pathname.toLowerCase() == "/") {
       // Si on est sur la page d'accueuil
       window.location = "./HTML/product.html";
-    } else if (window.location.pathname == "/html/boutique-animale" || window.location.pathname == "/HTML/boutique-animale.html") {
+    } else if (window.location.pathname.toLowerCase() == "/html/boutique-animale" || window.location.pathname.toLowerCase() == "/HTML/boutique-animale.html") {
       // Si on est sur la boutique
       window.location = "../HTML/product.html";
     }
@@ -59,7 +59,7 @@ function setgender(type) {
   }
 }
 
-if (window.location.pathname == "/HTML/product.html") {
+if (window.location.pathname.toLowerCase() == "/HTML/product.html" || window.location.pathname.toLowerCase() == "/HTML/product") {
   var infos_container = document.querySelector("#product>.content-margins");
   buildPage(sessionStorage.getItem('product'))
 }

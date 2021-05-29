@@ -43,7 +43,7 @@ function cards(products) {
         `);
     grid.appendChild(card);
   }
-  if (window.location.pathname == "/html/boutique-animale" || window.location.pathname == "/HTML/boutique-animale.html" ) {
+  if (window.location.pathname.toLowerCase() == "/html/boutique-animale" || window.location.pathname.toLowerCase() == "/HTML/boutique-animale.html" ) {
   getCard()
   }
 }

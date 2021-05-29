@@ -8,7 +8,7 @@ var updated_productList;
 
 search.oninput = updateCard;
 sortType.addEventListener('change', updateCard);
-
+    
 function updateCard(){
     updated_productList = [];
     var name = search.value;
