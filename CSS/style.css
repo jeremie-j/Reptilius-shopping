@@ -58,6 +58,7 @@ p {
 }
 
 a {
+  cursor: pointer;
   color: var(--smooth_black);
 }
 .content-margins {

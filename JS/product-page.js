@@ -37,7 +37,7 @@ function buildPage(product){
         <div class="infos">
             <p class="description">${product["Description"]}</p>
             <p class="price">${product["Price"]} €</p>
-            <p class="gender"><span class="active" onclick="gender('F')">${product["Gender"][0]}</span> <span onclick="gender('M')">${product["Gender"][1]}</span></p>
+            <p class="gender"><span class="active" onclick="setgender('F')">${product["Gender"][0]}</span> <span onclick="setgender('M')">${product["Gender"][1]}</span></p>
             <p class="qte">Quantité<input type="number" min="1" max="20" value="1"></p>
         </div>
     </div>
@@ -46,6 +46,31 @@ function buildPage(product){
     </a>
         `);
     infos_container.appendChild(infos)
+}
+
+function setgender(type){
+  var gender = type
+  if (gender == "F"){
+  document.querySelectorAll("p.gender>span")[0].classList.add("active")
+  document.querySelectorAll("p.gender>span")[1].classList.remove("active")
+}else{
+  document.querySelectorAll("p.gender>span")[0].classList.remove("active")
+  document.querySelectorAll("p.gender>span")[1].classList.add("active")
+}
+}
+
+function add(){
+  var item = {"Name":product["Name"],
+              "Price":product["Price"],
+              "Quantity":document.querySelector(".qte>input").value,
+              "Gender":document.querySelector("p.gender>span.active").value}
+  if(localStorage.getItem('panier') == null){
+    localStorage.setItem('panier', JSON.stringify({[]}));
+  }
+  var panier = JSON.parse(localStorage.getItem('panier'));
+  console.log(panier)
+  panier.push(item)
+  localStorage.setItem('panier', JSON.stringify(panier));
 }
 
 find(sessionStorage.getItem('product'))

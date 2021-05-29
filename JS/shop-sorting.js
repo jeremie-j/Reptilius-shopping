@@ -3,17 +3,11 @@ var sortType = document.querySelector("select#type-search");
 var notFound = document.querySelector(".article>h3");
 notFound.style.display ="none"
 
-var productList = "";
+var productList = [];
 var updated_productList;
 
-window.onload = getCard;
 search.oninput = updateCard;
 sortType.addEventListener('change', updateCard);
-
-function getCard(){
-    productList = document.querySelectorAll(".card")
-    console.log(productList)
-}
 
 function updateCard(){
     updated_productList = [];

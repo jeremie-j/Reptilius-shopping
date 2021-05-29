@@ -47,7 +47,14 @@ function cards(products) {
         `);
     grid.appendChild(card);
   }
+  getCard()
 }
+
+function getCard(){
+  productList = document.querySelectorAll(".card")
+  console.log(productList)
+}
+
 if (on_index) {
   buildShop("reduced");
 } else {
