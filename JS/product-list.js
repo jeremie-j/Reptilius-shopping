@@ -46,6 +46,7 @@ function cards(products) {
     </div>
         `);
     grid.appendChild(card);
+    console.log("ui")
   }
   getCard()
 }

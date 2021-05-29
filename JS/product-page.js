@@ -59,18 +59,4 @@ function setgender(type){
 }
 }
 
-function add(){
-  var item = {"Name":product["Name"],
-              "Price":product["Price"],
-              "Quantity":document.querySelector(".qte>input").value,
-              "Gender":document.querySelector("p.gender>span.active").value}
-  if(localStorage.getItem('panier') == null){
-    localStorage.setItem('panier', JSON.stringify({[]}));
-  }
-  var panier = JSON.parse(localStorage.getItem('panier'));
-  console.log(panier)
-  panier.push(item)
-  localStorage.setItem('panier', JSON.stringify(panier));
-}
-
 find(sessionStorage.getItem('product'))
