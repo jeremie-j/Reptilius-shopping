@@ -46,14 +46,12 @@ function cards(products) {
     </div>
         `);
     grid.appendChild(card);
-    console.log("ui")
   }
   getCard()
 }
 
 function getCard(){
   productList = document.querySelectorAll(".card")
-  console.log(productList)
 }
 
 if (on_index) {
