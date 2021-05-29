@@ -1,0 +1,25 @@
+form.order input[type="text"],form.order input[type="email"]{
+    width: 500px;
+    background-color: var(--smooth_white);
+}
+
+form input[type="submit"]{
+    cursor: pointer;
+    width: 40%;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    padding: 12px;
+    height: 50px;
+    color: var(--smooth_black);
+    border: 1px solid var(--smooth_black);
+    letter-spacing: 0.3em;
+    font-size: 24px;
+}
+form input[type="submit"]:active{
+    border: none;
+}
+.success{
+    display: none;
+}

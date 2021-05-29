@@ -23,9 +23,6 @@ function updateCard(){
     // Par type
     if(type != 'all'){
     for(let i = updated_productList.length-1; i >= 0; i--){
-        console.log(updated_productList[i].querySelector(".category").innerHTML)
-        console.log(type)
-        console.log(updated_productList[i].querySelector(".category").innerHTML != type)
         if (updated_productList[i].querySelector(".category").innerHTML != type){
             updated_productList.splice(i,1)
         }
@@ -51,6 +48,4 @@ function updateCard(){
             notFound.style.display ="none"
         }
     }
-
-    console.log(updated_productList)
 }

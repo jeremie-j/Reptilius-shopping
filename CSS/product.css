@@ -41,9 +41,6 @@
     visibility: hidden;
 }
 
-#product{
-    padding-top: 150px;
-}
 #product h2{
     position: relative;
     margin-bottom: 30px;
@@ -92,9 +89,8 @@
 #product a>h3{
     margin: 0;
 }
-
-#guide{
-    margin-top: 150px;
+.gender>span{
+    cursor: pointer;
 }
 
 .back{
@@ -102,4 +98,34 @@
     margin-bottom: 20px;
 }.back>h3{
     text-decoration: none;
+}
+
+.article thead>tr{
+    font-style: italic;
+}
+.article table th:nth-child(1){
+    width: 40%;
+}
+.article table th:not(:nth-child(1)){
+    width: 20%;
+}
+table{
+    table-layout: fixed;
+    width:100%;
+}
+.article.panier{
+    padding-bottom: 0;
+}
+
+.result{
+    display: none;
+    margin-top: 50px;
+    position: relative;
+}
+.result>textarea{
+    background-color: var(--smooth_black);
+    color:var(--smooth_white);
+    resize: none;
+    width: 100%;
+    min-height: 100px;
 }

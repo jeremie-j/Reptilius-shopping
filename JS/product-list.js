@@ -1,12 +1,9 @@
 var grid = document.querySelector(".article>.content");
 
-function buildShop(type) {
-  var request = new XMLHttpRequest();
-  request.open("GET", "../ASSET/PRODUCT/products.json");
-  request.responseType = "json";
-  request.send();
-  request.onload = function () {
-    var productList = request.response["Products"];
+async function buildShop(type) {
+  var request = await fetch("../ASSET/PRODUCT/products.json");
+  var data = await request.json();
+    var productList = data["Products"];
     if (type == "reduced") {
       var reducedProductList = [];
       for (let i = 0; i < 3; i++) {
@@ -16,7 +13,6 @@ function buildShop(type) {
     } else if (type == "whole") {
       cards(productList);
     }
-  };
 }
 
 function cards(products) {
@@ -47,7 +43,9 @@ function cards(products) {
         `);
     grid.appendChild(card);
   }
+  if (window.location.pathname == "/html/boutique-animale" || window.location.pathname == "/HTML/boutique-animale.html" ) {
   getCard()
+  }
 }
 
 function getCard(){
