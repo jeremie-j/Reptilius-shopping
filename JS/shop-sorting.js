@@ -10,6 +10,7 @@ search.oninput = updateCard;
 sortType.addEventListener('change', updateCard);
     
 function updateCard(){
+    productList = document.querySelectorAll(".card");
     updated_productList = [];
     var name = search.value;
     var type = sortType.value;
