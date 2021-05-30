@@ -126,10 +126,21 @@ table{
     margin-top: 50px;
     position: relative;
 }
+
 .result>textarea{
     background-color: var(--smooth_black);
     color:var(--smooth_white);
     resize: none;
     width: 100%;
     min-height: 100px;
+}
+
+@media (max-width: 900px) {
+    .article.panier p {
+        font-size: 14px;
+    }.article table th:nth-child(1){
+        width: 20%;
+    }.article table th:nth-child(2):not(:last-child){
+        display: none;
+    }
 }
