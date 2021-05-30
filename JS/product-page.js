@@ -43,7 +43,7 @@ async function buildPage(product) {
         </div>
     </div>
     <a>
-    <h3 onclick="add()">Ajouter au panier</h3><p>Votre article a bien été ajouté au panier !</p>
+    <h3 onclick="add()">Ajouter au panier</h3><p class="sucess">Votre article a bien été ajouté au panier !</p>
     </a>
         `);
   infos_container.appendChild(infos);

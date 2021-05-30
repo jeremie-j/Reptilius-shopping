@@ -12,6 +12,8 @@ async function add(){
                "Quantity":Quantity,
                "totalPrice":totalPrice})
     localStorage.setItem("panier_reptilius",JSON.stringify(cart))
+    document.querySelector(".sucess").style.display = "block";
+    setTimeout(function(){document.querySelector(".sucess").style.display = "none"},10000);
 }
 
 function initCart(){

@@ -80,3 +80,21 @@ section#landing{
 #landing-shop{
     height: auto;
 }
+
+@media (max-width: 900px) {
+    #landing .snake-corpse:nth-child(3){
+        display: none;  
+    }
+    #landing .snake-corpse:nth-child(4){
+        transform: rotate(-90deg);
+        left: inherit;
+        right: 0;
+        left: calc(100vw - 353px);
+        bottom: 10%;
+    }
+}
+@media (max-width: 700px){
+    #landing .snake-corpse{
+        display: none;
+    }
+}

@@ -26,3 +26,11 @@ form input[type="submit"]:active{
 input:not(:placeholder-shown):invalid{
     border-bottom: 1px solid red;
 }
+@media (max-width: 900px) {
+    form input[type="submit"]{
+        width: 100%;
+    }
+    form.order input[type="text"],form.order input[type="email"]{
+        width: 90%;
+    }
+}

@@ -7,3 +7,22 @@ function notification(){
 }
 }
 notification()
+
+function openMenu(){
+    var Menu = document.querySelector("#Menu")
+    if(Menu.style.top == "0px"){
+        closeMenu()
+    }else{
+        Menu.style.top = 0;
+        var Button = document.querySelectorAll("#home-button line:not(:first-child)")
+        Button.forEach(element => element.style.display = "none")
+    }
+}
+
+function closeMenu(){
+    var Menu = document.querySelector("#Menu")
+    var Button = document.querySelectorAll("#home-button line:not(:first-child)")
+    Button.forEach(element => element.style.display = "block")
+    Menu.style.top = '-100%';
+}
+document.querySelector("#Menu").addEventListener("click", closeMenu);

@@ -26,3 +26,11 @@ input{
     /* ---------------------------- */
     border-bottom: 1px solid var(--smooth_black);
 }
+@media (max-width: 900px) {
+    header{
+        display: none;
+    }
+    section:first-child{
+        padding-top: 30px;
+    }
+}
