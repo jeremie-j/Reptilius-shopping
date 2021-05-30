@@ -1,7 +1,7 @@
 async function add(){
     infos = await find(sessionStorage.getItem('product'))
     console.log(infos)
-    let Name = infos["Name"]
+    let Name = infos["Name"].toUpperCase()
     let unitPrice = infos["Price"]
     let Quantity = document.querySelector("#product .qte>input").value
     let totalPrice = unitPrice * Quantity

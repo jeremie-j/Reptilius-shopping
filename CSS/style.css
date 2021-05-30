@@ -69,3 +69,29 @@ a {
   height: 100%;
   margin: 0 auto;
 }
+.actual{
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .content-margins{
+    max-width: inherit;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .card{
+    grid-row-start: 0;
+  }
+  empty{
+    display: none;
+  }
+  .article.panier{
+    min-height: inherit;
+  }
+  .infos-container{
+  flex-direction: column;
+  }
+  .infos-container>img{
+    width: 100%;
+  }
+}

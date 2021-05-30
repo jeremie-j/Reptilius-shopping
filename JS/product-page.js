@@ -1,4 +1,5 @@
 async function find(name) {
+  //Request API
   var request = await fetch("../ASSET/PRODUCT/products.json");
   var data = await request.json();
     for (let i = 0; i < data["Products"].length; i++) {

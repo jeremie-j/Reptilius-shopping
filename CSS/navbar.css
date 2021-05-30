@@ -30,6 +30,7 @@ header>a>h1{
     -webkit-background-clip:text,border-box;
     color: transparent;
 }
+
 header>a>h1:hover{
     background-position: -100% 0;
 }
@@ -74,7 +75,7 @@ nav>ul>li::after{
     z-index: -1;
     border-left:none;
 }
-nav>ul>a:before, nav>ul>li:last-child:before{
+.notif:before{
     content: "";
     display: block;
     position: relative;
@@ -83,8 +84,8 @@ nav>ul>a:before, nav>ul>li:last-child:before{
     border-radius: 5px;
     background-color: var(--smooth_black);
     top: 0;
-    left: 90%;
+    left: 100%;
 }
 nav>ul>li:last-child:before{
-    left: 60%; 
+    left: 70%; 
 }

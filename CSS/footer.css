@@ -1,0 +1,27 @@
+footer{
+    margin-top: 150px;
+    min-height: 20vh;
+    background-color: var(--smooth_black);
+    padding:15px;
+}
+h5{
+    color: var(--smooth_white);
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 400;
+    border-bottom: 1px solid var(--smooth_white);
+    margin-bottom: 15px;
+}
+footer p{
+    color: var(--smooth_white);
+    font-weight: 300;
+}
+.footer-body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-body>div{
+    margin-bottom: 30px;
+}

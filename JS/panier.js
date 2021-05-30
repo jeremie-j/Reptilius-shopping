@@ -1,5 +1,6 @@
 function buildCart(){
     var cart = JSON.parse(localStorage.getItem("panier_reptilius"))
+    console.log(cart)
     var items = "";
     var totalPrice = 0;
     for(let i = 0; i < cart.length; i++){
@@ -9,17 +10,24 @@ function buildCart(){
             <th><p>${cart[i]["unitPrice"]}</p></th>
             <th><p>${cart[i]["Quantity"]}</p></th>
             <th><p>${cart[i]["totalPrice"]}</p></th>
+            <th><p class="delButton" onclick="del(${i})">&#x02014;</p></th>
         </tr>`
         totalPrice += cart[i]["totalPrice"];
+    }
+    if(cart.length>1){
+        var nbItems = cart.length + " Élements"
+    }else{
+        var nbItems = cart.length + " Élement"
     }
     var table = document.createRange().createContextualFragment(`
     <table>
         <thead>
             <tr>
-                <th><p>${cart.length} Élement</p></th>
+                <th><p>${nbItems}</p></th>
                 <th><p>Prix/u</p></th>
                 <th><p>Qte</p></th>
                 <th><p>Prix</p></th>
+                <th><p>Supprimer</p></th>
             </tr>
         </thead>
         <tbody>
@@ -45,8 +53,8 @@ function dispOrder(){
     var items = JSON.parse(localStorage.getItem("panier_reptilius"))
     var totalPrice = 0;
 
-    for(let i = 0; i < cart.length; i++){
-        totalPrice += cart[i]["totalPrice"];
+    for(let i = 0; i < items.length; i++){
+        totalPrice += items[i]["totalPrice"];
     }
 
     var order = {
@@ -68,4 +76,11 @@ function dispOrder(){
     return false
 }
 
+function del(i){
+    var cart = JSON.parse(localStorage.getItem("panier_reptilius"))
+    cart.splice(i,1)
+    localStorage.setItem("panier_reptilius",JSON.stringify(cart))
+    document.querySelector("table").remove()
+    buildCart()
+}
 buildCart()

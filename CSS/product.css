@@ -116,6 +116,10 @@ table{
 .article.panier{
     padding-bottom: 0;
 }
+.article table tbody th:nth-child(5)>p{
+    cursor: pointer;
+    color: red;
+}
 
 .result{
     display: none;

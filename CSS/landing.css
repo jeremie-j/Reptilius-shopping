@@ -4,6 +4,7 @@
 section#landing{
     height: 100vh;
     overflow: hidden;
+    border-bottom: 1px solid var(--smooth_black);
 }
 #landing>div{
     position: relative;

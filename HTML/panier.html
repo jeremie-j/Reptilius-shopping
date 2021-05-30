@@ -15,7 +15,7 @@
             <h1>REPTILIUS</h1>
         </a>
         <nav>
-            <ul><a href="#">
+            <ul><a href="./boutique-animale.html" class="actual">
                     <p>BOUTIQUE <svg width="17" height="11" viewBox="0 0 17 11" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1L8.5 10L16 1" stroke="#191919" />
@@ -25,7 +25,7 @@
                 <li><a href="./boutique-animale.html">
                         <p>ANIMAUX</p>
                     </a></li>
-                <li><a href="./panier.html">
+                <li><a href="./panier.html"  class="actual">
                         <p>PANIER</p>
                     </a></li>
             </ul>
@@ -43,26 +43,49 @@
             <div class="article panier">
             </div>
             <form class="order" onsubmit="dispOrder();return false">
-            <h3>Contact</h3>
-            <p><input type="email" name="email" placeholder="E-mail*" required></p>
-            <p><input type="text" name="adress" placeholder="Adresse*" required></p>
-            <p><input type="text" name="town" placeholder="Ville*" required></p>
-            <p><input type="text" name="postalCode" placeholder="Code Postal*" maxlength="5" minlength="5" required></p>
-            <h3>INFORMATIONS BANQUAIRES</h3>
-            <p><input type="text" name="creditCard" placeholder="Code de carte bleue* 0000-0000-0000-0000" required></p>
-            <p><input type="text" name="cryptogram" placeholder="Cryptograme*" required></p>
-            <p><input type="text" name="expirationDate" placeholder="Date d’expiration*" required></p>
-            <input type="submit" value="Commander">
-            <p class="success">Commande effectuée !</p>
-        </form>
-        <div class="result">
-            <p>Result</p>
-            <textarea rows="30">
+                <h3>Contact</h3>
+                <p><input type="email" name="email" placeholder="E-mail*" required></p>
+                <p><input type="text" name="adress" placeholder="Adresse*" required></p>
+                <p><input type="text" name="town" placeholder="Ville*" required></p>
+                <p><input type="text" pattern="[0-9]{5}" name="postalCode" placeholder="Code Postal*" maxlength="5" minlength="5" required>
+                </p>
+                <h3>INFORMATIONS BANQUAIRES</h3>
+                <p><input type="text" pattern="[0-9]{16}" name="creditCard" placeholder="Code de carte bleue* 0000 0000 0000 0000" required>
+                </p>
+                <p><input type="text" pattern="[0-9]{3,4}" name="cryptogram" placeholder="Cryptograme*" required></p>
+                <p><input type="text" name="expirationDate" placeholder="Date d’expiration*" required></p>
+                <input type="submit" value="Commander">
+                <p class="success">Commande effectuée !</p>
+            </form>
+            <div class="result">
+                <h3>Result</h3>
+                <textarea rows="50" spellcheck="false" readonly>
 
             </textarea>
-        </div>
+            </div>
         </div>
     </section>
+    <footer>
+        <div class="content-margins">
+            <h5>
+                Reptilius
+            </h5>
+            <div class="footer-body">
+                <div>
+                    <p>Conditions générales de vente</p>
+                    <p>Contactez-nous</p>
+                    <p>Principale source : Reptiligne</p>
+                    <p>Github</p>
+                </div>
+                <div>
+                    <p>Animalerie reptiles</p>
+                    <p>173 Boulevard Haussmann</p>
+                    <p>75008 Paris (Fictif)</p>
+                    <p>France</p>
+                </div>
+            </div>
+    </footer>
 </body>
 <script src="../JS/panier.js"></script>
+
 </html>

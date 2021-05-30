@@ -1,5 +1,5 @@
 form.order input[type="text"],form.order input[type="email"]{
-    width: 500px;
+    width: 60%;
     background-color: var(--smooth_white);
 }
 
@@ -22,4 +22,7 @@ form input[type="submit"]:active{
 }
 .success{
     display: none;
+}
+input:not(:placeholder-shown):invalid{
+    border-bottom: 1px solid red;
 }

@@ -35,7 +35,7 @@ function cards(products) {
               <h4>${products[i]["Name"]}</h4>
               <p class="name">${products[i]["Type"]}<br>${products[i]["Price"]} €</p>
               <p>Sexe : <strong>${gender}</strong><br>
-              Age :<strong>${products[i]["Age"]}</strong></p>
+              Age : <strong>${products[i]["Age"]}</strong></p>
               <p class="hidden category">${products[i]["Category"]}</p>
           </div>
         <a onclick="choose('${products[i]["Name"]}')"><h4>VOIR</h4></a>
